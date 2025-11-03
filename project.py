@@ -1,4 +1,3 @@
-
 from cryptography.fernet import Fernet
 import hashlib, base64
 
@@ -50,3 +49,4 @@ elif choice == "d":
 
 else:
     print("Invalid choice!")
+
