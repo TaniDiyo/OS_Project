@@ -18,7 +18,7 @@ def encrypt_file(filename, password):
     with open("encrypted_" + filename, 'wb') as file:
         file.write(encrypted_data)
 
-    print("✅ File Encrypted: encrypted_" + filename)
+    print("File Encrypted: encrypted_" + filename)
 
 def decrypt_file(filename, password):
     key = get_key(password)
@@ -49,4 +49,5 @@ elif choice == "d":
 
 else:
     print("Invalid choice!")
+
 
